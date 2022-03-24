@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Card | Jaya Kiran</title>
+    <style>
+        body{
+            box-sizing: border-box;
+            background-color: rgba(9, 238, 181, 0.356);
+        }
+        .container{
+            position: absolute;
+            border: none;
+            transform: translate(-50%,-50%);
+            left: 50%;
+            top: 50%;
+            width: 350px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 20px;
+            box-shadow: 50px 50px 90px black;
+            background-color: aliceblue;
+        }
+        .header{
+            font-size: x-large;
+            height: 40px;
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+            color: black;
+            background-color:rgb(9, 238, 181);
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        .content{
+            text-align: center;
+            padding: 0px 20px;
+            align-items: center;
+        }
+        .content img{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: none
+        }
+        .container p{
+            text-align: justify;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            line-height: 15px;
+            background-color: rgb(9, 238, 181);
+            padding: 20px;
+            border-radius: 20px;
+            color: black;
+        }
+        .follo table{
+            text-align: center;
+            margin: 0px 20px;
+            padding: 20px;
+            border-spacing: 10px;
+        }
+        #top td{
+            background-color: rgb(9, 238, 181);
+            color: black;
+            border-radius: 20px;
+            padding: 10px;
+            font-weight: bold;
+        }
+        #bottom td{
+            font-weight: bold;
+        }
+        .footer{
+            display: flex;
+            margin: 20px;
+        }
+        .social button{
+            margin: 0px 20px 20px 20px;
+            padding: 10px;
+            background-color: rgb(9, 238, 181);
+            color: black;
+            border-radius: 10px;
+            font-weight: bold;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Yarramsetti Jaya Kiran Kumar</div>
+        <div class="content">
+            <img src="./mine.jpg">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, nam placeat! Alias perferendis exercitationem velit aliquam. Optio soluta, beatae molestias sequi animi nihil accusantium dolore voluptatibus rerum, ea explicabo pariatur vel corrupti quidem veritatis non.</p>
+        </div>
+        <div class="follo">
+            <table>
+                <tr id="top">
+                    <td>5M</td>
+                    <td>200K</td>
+                    <td>600K</td>
+                </tr>
+                <tr id="bottom">
+                    <td>POSTS</td>
+                    <td>FOLLOWING</td>
+                    <td>FOLLOWERS</td>
+                </tr>
+            </table>
+        </div>
+        <div class="social">
+            <button>FOLLOW</button>
+            <button>MESSAGE</button>
+        </div>
+    </div>
+</body>
+</html>
